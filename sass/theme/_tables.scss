@@ -1,0 +1,21 @@
+/**
+ * sass/theme/tables.scss
+ * @package blueprint
+ * @author Scott Shealy
+ * @version 1.0.0 (2025.12.01)
+ * @copyright 2025 (2025.12.01)
+**/
+
+// LOAD PARTIALS
+    @use "colors" as *;
+    @use "../variables/index" as *;
+
+// FORWARD PARTIALS
+
+// TABLE STYLES
+    $table-header-background: $color-grayscale-dark-9;
+    $table-subheader-background: $color-grayscale-dark-3;
+    $table-row-odd-background: $color-grayscale-light-11;
+    $table-row-even-background: $color-grayscale-light-9;
+    $table-border: $table-header-background;
+    $table-cell-padding: $padding-xxs;

@@ -1,0 +1,20 @@
+/**
+ * sass/theme/borders.scss
+ * @package blueprint
+ * @author Scott Shealy
+ * @version 1.0.0 (2025.12.01)
+ * @copyright 2025 (2025.12.01)
+**/
+
+// LOAD PARTIALS
+    @use "colors" as *;
+    @use "../variables/index" as *;
+
+// FORWARD PARTIALS
+
+// BORDER WIDTHS
+    $border-width: 1px;
+    $border-outline-width: 1px;
+
+// BORDER RADIUS
+    $border-radius: 0.00rem;

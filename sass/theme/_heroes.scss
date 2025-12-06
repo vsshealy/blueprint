@@ -1,0 +1,26 @@
+/**
+ * sass/theme/heroes.scss
+ * @package blueprint
+ * @author Scott Shealy
+ * @version 1.0.0 (2025.12.01)
+ * @copyright 2025 (2025.12.01)
+**/
+
+// LOAD PARTIALS
+    @use "colors" as *;
+    @use "backgrounds" as *;
+    @use "gradients" as *;
+    @use "text" as *;
+    @use "../variables/index" as *;
+
+// FORWARD PARTIALS
+// HERO STYLES
+    // HERO-PRIMARY
+        $hero-primary-height: 100.00%;
+        $hero-primary-height-mobile: 100.00%;
+        $hero-primary-height-desktop: 100.00%;
+
+    // HERO-SECONDARY
+        $hero-secondary-height: 100.00%;
+        $hero-secondary-height-mobile: 100.00%;
+        $hero-secondary-height-desktop: 100.00%;

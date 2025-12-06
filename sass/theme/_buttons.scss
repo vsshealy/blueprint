@@ -1,0 +1,57 @@
+/**
+ * sass/theme/buttons.scss
+ * @package blueprint
+ * @author Scott Shealy
+ * @version 1.0.0 (2025.12.01)
+ * @copyright 2025 (2025.12.01)
+**/
+
+// LOAD PARTIALS
+    @use "colors" as *;
+    @use "text" as *;
+    @use "links" as *;
+    @use "borders" as *;
+    @use "../variables/index" as *;
+
+// FORWARD PARTIALS
+
+// BUTTON SETTINGS
+    $button-text: $body-text;
+    $button-text-size: $body-text-size;
+    $button-text-style: none;
+    $button-text-weight: 400;
+    $button-margin-vertical: $margin-xs;
+    $button-margin-horizontal: $margin-md;
+    $button-padding-vertical: $margin-xs;
+    $button-padding-horizontal: $margin-md;
+    $button-border-width: $border-outline-width;
+
+// BUTTON-PRIMARY
+    $button-primary-color: $link-color;
+    $button-primary-text-color: mix($color-adjustment-light, $button-primary-color, $color-adjustment * 12);
+    $button-primary-hover-color: $link-hover-color;
+    $button-primary-hover-text-color: mix($color-adjustment-light, $button-primary-hover-color, $color-adjustment * 12);
+
+// BUTTON-SECONDARY
+    $button-secondary-color: $color-brand-2-0;
+    $button-secondary-text-color: mix($color-adjustment-light, $button-secondary-color, $color-adjustment * 12);
+    $button-secondary-hover-color: mix($link-hover-adjustment-color, $button-secondary-color, $link-hover-adjustment);
+    $button-secondary-hover-text-color: mix($color-adjustment-light, $button-secondary-hover-color, $color-adjustment * 12);
+
+// BUTTON-ALT
+    $button-alt-color: $color-grayscale-light-12;
+    $button-alt-text-color: $link-color;
+    $button-alt-hover-color: $button-primary-color;
+    $button-alt-hover-text-color: mix($color-adjustment-light, $button-primary-hover-color, $color-adjustment * 12);
+    
+// BUTTON-GHOST
+    $button-ghost-color: transparent;
+    $button-ghost-text-color: $link-color;
+    $button-ghost-hover-color: $button-primary-color;
+    $button-ghost-hover-text-color: mix($color-adjustment-light, $button-ghost-hover-color, $color-adjustment * 12);
+
+// BUTTON-MOBILE
+    $button-mobile-color: $button-primary-color;
+    $button-mobile-text-color: mix($color-adjustment-light, $button-mobile-color, $color-adjustment * 12);
+    $button-mobile-hover-color: $link-hover-color;
+    $button-mobile-hover-text-color: mix($color-adjustment-light, $button-mobile-hover-color, $color-adjustment * 12);

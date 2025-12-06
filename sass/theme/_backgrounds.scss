@@ -1,0 +1,46 @@
+/**
+ * sass/theme/backgrounds.scss
+ * @package blueprint
+ * @author Scott Shealy
+ * @version 1.0.0 (2025.12.01)
+ * @copyright 2025 (2025.12.01)
+**/
+
+// LOAD PARTIALS
+    @use "colors" as *;
+    @use "text" as *;
+    @use "../variables/index" as *;
+
+// FORWARD PARTIALS
+
+// BACKGROUND-1
+    $background-1-color: $color-brand-2;
+    $background-1-text-color: mix($color-adjustment-light, $background-1-color, $color-adjustment * 12);
+
+// BACKGROUND-2
+    $background-2-color: $color-brand-2;
+    $background-2-text-color: mix($color-adjustment-light, $background-2-color, $color-adjustment * 12);
+
+// BACKGROUND-3
+    $background-3-color: $color-brand-3;
+    $background-3-text-color: mix($color-adjustment-light, $background-3-color, $color-adjustment * 12);
+
+// BACKGROUND-4
+    $background-4-color: $color-brand-4;
+    $background-4-text-color: mix($color-adjustment-light, $background-4-color, $color-adjustment * 12);
+
+// BACKGROUND-5
+    $background-5-color: $color-brand-5;
+    $background-5-text-color: mix($color-adjustment-light, $background-5-color, $color-adjustment * 12);
+
+// BACKGROUND-6
+    $background-6-color: $color-brand-6;
+    $background-6-text-color: mix($color-adjustment-light, $background-6-color, $color-adjustment * 12);
+
+// BACKGROUND-7
+    $background-7-color: $color-brand-7;
+    $background-7-text-color: mix($color-adjustment-light, $background-7-color, $color-adjustment * 12);
+
+// BACKGROUND-8
+    $background-8-color: $color-brand-8;
+    $background-8-text-color: mix($color-adjustment-light, $background-8-color, $color-adjustment * 12);

@@ -1,0 +1,43 @@
+/**
+ * sass/theme/global.scss
+ * @package blueprint
+ * @author Scott Shealy
+ * @version 1.0.0 (2025.12.01)
+ * @copyright 2025 (2025.12.01)
+**/
+
+// LOAD PARTIALS
+    @use "../variables/colors" as *;
+
+// BASE UNIT SIZE
+    $unit-base: 1.00rem;
+
+// SITE WIDTH SETTINGS
+    $site-width-min: 90.00%;
+    $site-width-max: 100.00%;
+    $site-width-content: 1400px;
+
+// SITE BACKGROUND COLORS
+    $html-background-color: $color-grayscale-light-10;
+    $body-background-color: $color-grayscale-light-12;
+
+// GLOBAL SIZE ADJUSTMENTS
+    $unit-adjustment-none: 0.00;
+    $unit-adjustment-xxs: 0.25;
+    $unit-adjustment-xs: 0.50;
+    $unit-adjustment-sm: 1.00;
+    $unit-adjustment-md: 1.50;
+    $unit-adjustment-lg: 2.00;
+    $unit-adjustment-xl: 4.00;
+    $unit-adjustment-xxl: 6.00;
+
+// GUTTERS
+    // ROWS
+        $gutter-row: $unit-base;
+        $gutter-row-vertical: $gutter-row;
+        $gutter-row-horizontal: 0.00rem;
+
+    // COLUMNS
+        $gutter-columns: $unit-base;
+        $gutter-columns-vertical: $gutter-columns * 1.00;
+        $gutter-columns-horizontal: $gutter-columns * 1.00;
